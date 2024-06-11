@@ -1,0 +1,6 @@
+framework module Pods_YBPopupMenuDemo {
+  umbrella header "Pods-YBPopupMenuDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

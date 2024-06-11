@@ -173,7 +173,8 @@ UITableViewDataSource
         cell = [[YBPopupMenuCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
         cell.textLabel.numberOfLines = 0;
     }
-    cell.backgroundColor = [UIColor clearColor];
+    cell.backgroundColor = UIColor.clearColor;
+    /// cell.backgroundView = UIView.new;
     cell.textLabel.textColor = _textColor;
     if (_font) {
         cell.textLabel.font = _font;

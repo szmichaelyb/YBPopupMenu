@@ -21,6 +21,7 @@
 		4A07B8382A8CBF1B00B0AF85 /* YBPopupMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A07B8372A8CBF1B00B0AF85 /* YBPopupMenuContainerView.m */; };
 		4AD7633C23D42170006AEBE5 /* YBPopupMenuDeviceOrientationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7633B23D42170006AEBE5 /* YBPopupMenuDeviceOrientationManager.m */; };
 		4AD7634223D46E77006AEBE5 /* YBPopupMenuAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AD7634123D46E77006AEBE5 /* YBPopupMenuAnimationManager.m */; };
+		AFC4621BF2B3A7EBC89DF85A /* Pods_YBPopupMenuDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 077908976DBB3EF1B0702AB0 /* Pods_YBPopupMenuDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		077908976DBB3EF1B0702AB0 /* Pods_YBPopupMenuDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YBPopupMenuDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C660A201FEA39E7000BD9A5 /* CustomTestCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTestCell.h; sourceTree = "<group>"; };
 		0C660A211FEA39E7000BD9A5 /* CustomTestCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTestCell.m; sourceTree = "<group>"; };
 		0C660A221FEA39E7000BD9A5 /* CustomTestCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTestCell.xib; sourceTree = "<group>"; };
@@ -54,12 +56,14 @@
 		0C8E6EDC1DD1A893009EEF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C8E6EE61DD1A8CF009EEF02 /* YBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenu.h; sourceTree = "<group>"; };
 		0C8E6EE71DD1A8CF009EEF02 /* YBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenu.m; sourceTree = "<group>"; };
+		14BBEA729965D2276FC370F7 /* Pods-YBPopupMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBPopupMenuDemo.release.xcconfig"; path = "Target Support Files/Pods-YBPopupMenuDemo/Pods-YBPopupMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
 		4A07B8362A8CBF1B00B0AF85 /* YBPopupMenuContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPopupMenuContainerView.h; sourceTree = "<group>"; };
 		4A07B8372A8CBF1B00B0AF85 /* YBPopupMenuContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenuContainerView.m; sourceTree = "<group>"; };
 		4AD7633A23D42170006AEBE5 /* YBPopupMenuDeviceOrientationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPopupMenuDeviceOrientationManager.h; sourceTree = "<group>"; };
 		4AD7633B23D42170006AEBE5 /* YBPopupMenuDeviceOrientationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenuDeviceOrientationManager.m; sourceTree = "<group>"; };
 		4AD7634023D46E77006AEBE5 /* YBPopupMenuAnimationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBPopupMenuAnimationManager.h; sourceTree = "<group>"; };
 		4AD7634123D46E77006AEBE5 /* YBPopupMenuAnimationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenuAnimationManager.m; sourceTree = "<group>"; };
+		9C7C1C5A6D6D313465182D7C /* Pods-YBPopupMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YBPopupMenuDemo.debug.xcconfig"; path = "Target Support Files/Pods-YBPopupMenuDemo/Pods-YBPopupMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC4621BF2B3A7EBC89DF85A /* Pods_YBPopupMenuDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,8 @@
 				0C8E6EBF1DD1A893009EEF02 /* YBPopupMenuDemo */,
 				0C8E6ED91DD1A893009EEF02 /* YBPopupMenuDemoUITests */,
 				0C8E6EBE1DD1A893009EEF02 /* Products */,
+				C859C2865FD9AC21DFD7AC32 /* Pods */,
+				666D69F73A6276CC2964B6BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +159,24 @@
 			path = YBPopupMenu;
 			sourceTree = "<group>";
 		};
+		666D69F73A6276CC2964B6BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				077908976DBB3EF1B0702AB0 /* Pods_YBPopupMenuDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C859C2865FD9AC21DFD7AC32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C7C1C5A6D6D313465182D7C /* Pods-YBPopupMenuDemo.debug.xcconfig */,
+				14BBEA729965D2276FC370F7 /* Pods-YBPopupMenuDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C8E6EDF1DD1A893009EEF02 /* Build configuration list for PBXNativeTarget "YBPopupMenuDemo" */;
 			buildPhases = (
+				37935A31525E2919C18952C1 /* [CP] Check Pods Manifest.lock */,
 				0C8E6EB91DD1A893009EEF02 /* Sources */,
 				0C8E6EBA1DD1A893009EEF02 /* Frameworks */,
 				0C8E6EBB1DD1A893009EEF02 /* Resources */,
+				7EDCA33FC76C61B826D89632 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +279,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37935A31525E2919C18952C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YBPopupMenuDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EDCA33FC76C61B826D89632 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YBPopupMenuDemo/Pods-YBPopupMenuDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LookinServer/LookinServer.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/MyLayout/MyLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LookinServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YBPopupMenuDemo/Pods-YBPopupMenuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C8E6EB91DD1A893009EEF02 /* Sources */ = {
@@ -398,6 +474,7 @@
 		};
 		0C8E6EE01DD1A893009EEF02 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C7C1C5A6D6D313465182D7C /* Pods-YBPopupMenuDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8CSXJZUPG2;
@@ -411,6 +488,7 @@
 		};
 		0C8E6EE11DD1A893009EEF02 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14BBEA729965D2276FC370F7 /* Pods-YBPopupMenuDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8CSXJZUPG2;
